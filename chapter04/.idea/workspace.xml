@@ -10,26 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4381e128-c236-4d35-9d74-05cba16f1131" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ChineseServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrintServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RequestForwardServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RequestHeadersServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RequestLineServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RequestParamsServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ResultServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestServlet01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestServlet02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestServlet03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestServlet04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestServlet05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestServlet06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestServlet07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestServlet08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/itcast.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/welcome.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../demo1/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../demo1/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../demo1/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
@@ -102,7 +82,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -212,7 +192,7 @@
       <workItem from="1646389626083" duration="159000" />
       <workItem from="1646612820951" duration="6770000" />
       <workItem from="1646628576186" duration="6003000" />
-      <workItem from="1646635607563" duration="248000" />
+      <workItem from="1646635607563" duration="625000" />
     </task>
     <servers />
   </component>
