@@ -10,22 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4381e128-c236-4d35-9d74-05cba16f1131" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/chapter07_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/chapter07.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter06/web/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter06/web/forward.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter06/web/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter06/web/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter06/web/user_register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter07/chapter07.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter07/src/cn/itcast/servlet/MyServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter07/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter07/web/cookie.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter07/web/myjsp.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter07/web/pageContext.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter07/web/param.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter07/web/scopes.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter07/web/c_choose.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter07/web/c_foreach1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter07/web/c_foreach2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter07/web/c_if.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter07/web/c_out1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter07/web/c_out2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter07/web/c_url.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter07/web/if.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter07/web/test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/chapter07.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/chapter07.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../demo1/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../demo1/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
@@ -98,18 +93,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="corretto-1.8" />
-    <property name="last_opened_file_path" value="D:/apache-tomcat-8.5.75/lib/servlet-api.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chapter07/web/WEB-INF/lib/standard.jar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter07\web" />
       <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter06\web" />
     </key>
   </component>
@@ -490,6 +486,7 @@
       <workItem from="1646636275787" duration="7231000" />
       <workItem from="1646784025127" duration="8932000" />
       <workItem from="1647236110508" duration="9631000" />
+      <workItem from="1647389584449" duration="8312000" />
     </task>
     <servers />
   </component>
