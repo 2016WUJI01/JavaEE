@@ -98,7 +98,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
@@ -486,7 +486,7 @@
       <workItem from="1646636275787" duration="7231000" />
       <workItem from="1646784025127" duration="8932000" />
       <workItem from="1647236110508" duration="9631000" />
-      <workItem from="1647389584449" duration="8312000" />
+      <workItem from="1647389584449" duration="8763000" />
     </task>
     <servers />
   </component>
