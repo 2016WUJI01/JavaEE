@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="chapter08">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../chapter08" />
+      <root url="file://$PROJECT_DIR$/../chapter08/web/WEB-INF/lib" />
+      <root url="jar://$PROJECT_DIR$/../chapter08/web/WEB-INF/lib/jstl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../chapter08/web/WEB-INF/lib/standard.jar!/" />
+      <root url="jar://D:/apache-tomcat-8.5.75/lib/jsp-api.jar!/" />
+      <root url="jar://D:/apache-tomcat-8.5.75/lib/servlet-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../chapter08/web/WEB-INF/lib" recursive="false" />
+  </library>
+</component>
