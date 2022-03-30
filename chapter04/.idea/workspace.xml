@@ -2,38 +2,49 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="chapter08:war exploded" />
+      <artifact name="chapter10:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4381e128-c236-4d35-9d74-05cba16f1131" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/chapter08_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/chapter08.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter08/chapter08.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter08/src/cn/itcast/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter08/src/cn/itcast/CharactorEncoding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter08/src/cn/itcast/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter08/src/cn/itcast/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter08/src/cn/itcast/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter08/web/WEB-INF/lib/jakarta-taglibs-standard-1.1.2.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter08/web/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter08/web/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter08/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter08/web/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter08/web/email.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter08/web/info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter08/web/release.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter08/web/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter08/web/stuInfo.jsp" afterDir="false" />
+    <list default="true" id="4381e128-c236-4d35-9d74-05cba16f1131" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/chapter09_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/chapter10_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/chapter09.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08/src/cn/itcast/Username.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08/web/judge.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09/chapter09.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09/src/cn/itcast/chapter09/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09/src/cn/itcast/chapter09/filter/AutoLoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09/src/cn/itcast/chapter09/filter/ForwardFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09/src/cn/itcast/chapter09/filter/ForwardServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09/src/cn/itcast/chapter09/filter/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09/src/cn/itcast/chapter09/filter/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09/src/cn/itcast/chapter09/filter/MyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09/src/cn/itcast/chapter09/filter/MyFilter01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09/src/cn/itcast/chapter09/filter/MyFilter02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09/src/cn/itcast/chapter09/filter/MyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09/src/cn/itcast/chapter09/listener/MyListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09/src/cn/itcast/fileupload/UploadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09/web/WEB-INF/lib/commons-io-2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09/web/WEB-INF/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09/web/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09/web/first.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09/web/form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/chapter10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/web/WEB-INF/lib/mysql-connector-java-8.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/web/WEB-INF/lib/servlet-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/web/WEB-INF/web.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaTest/JavaTest.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaTest/src/YanghuiTriangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter07/chapter07.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter07/chapter07.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../demo1/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../demo1/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../demo1/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
@@ -113,13 +124,15 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter10\web\WEB-INF\lib" />
+      <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter09\web\WEB-INF\lib" />
       <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter08\web\WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -127,7 +140,7 @@
       <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter06\web" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.TomcatChapter08">
+  <component name="RunManager" selected="Tomcat Server.TomcatChapter10">
     <configuration name="TomcatChapter04" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.75" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -563,12 +576,188 @@
         </option>
       </method>
     </configuration>
+    <configuration name="TomcatChapter09" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.75" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="chapter09:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/chapter09" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="1f38e3eb-2144-4ed1-9215-71387c87595a" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57074" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="chapter09:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="TomcatChapter10" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.75" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="chapter10:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/chapter10" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="94bc09fe-7469-415b-ad9e-de05e1637f9e" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65141" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="chapter10:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Tomcat Server.TomcatChapter04" />
       <item itemvalue="Tomcat Server.TomcatChapter05" />
       <item itemvalue="Tomcat Server.TomcatChapter06" />
       <item itemvalue="Tomcat Server.TomcatChapter07" />
       <item itemvalue="Tomcat Server.TomcatChapter08" />
+      <item itemvalue="Tomcat Server.TomcatChapter09" />
+      <item itemvalue="Tomcat Server.TomcatChapter10" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -595,7 +784,15 @@
       <workItem from="1647389584449" duration="8763000" />
       <workItem from="1647694825799" duration="4000" />
       <workItem from="1647694848948" duration="4000" />
-      <workItem from="1647842155549" duration="4811000" />
+      <workItem from="1647842155549" duration="6497000" />
+      <workItem from="1647859640996" duration="665000" />
+      <workItem from="1647994208670" duration="7976000" />
+      <workItem from="1648445753281" duration="35000" />
+      <workItem from="1648445801136" duration="82000" />
+      <workItem from="1648445896399" duration="5196000" />
+      <workItem from="1648453080534" duration="1167000" />
+      <workItem from="1648530100581" duration="3745000" />
+      <workItem from="1648598990339" duration="179000" />
     </task>
     <servers />
   </component>
