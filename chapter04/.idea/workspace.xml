@@ -10,17 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4381e128-c236-4d35-9d74-05cba16f1131" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/../chapter10/src/cn/itcast/example/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter10/src/cn/itcast/jdbc/example/DeleteUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter10/src/cn/itcast/jdbc/example/Example01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter10/src/cn/itcast/jdbc/example/Example02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter10/src/cn/itcast/jdbc/example/Example03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter10/src/cn/itcast/jdbc/example/FindAllUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter10/src/cn/itcast/jdbc/example/FindUserByIdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter10/src/cn/itcast/jdbc/example/JdbcInsertTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter10/src/cn/itcast/jdbc/example/UpdateUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter10/src/cn/itcast/jdbc/example/dao/UsersDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter10/src/cn/itcast/jdbc/example/utils/JDBCUtils.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaTest/JavaTest.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaTest/src/YanghuiTriangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -851,7 +840,7 @@
       <workItem from="1648453080534" duration="1167000" />
       <workItem from="1648530100581" duration="3745000" />
       <workItem from="1648598990339" duration="8872000" />
-      <workItem from="1648613396917" duration="1090000" />
+      <workItem from="1648613396917" duration="1596000" />
     </task>
     <servers />
   </component>
