@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="chapter10:war exploded" />
+      <artifact name="chapter11:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,8 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4381e128-c236-4d35-9d74-05cba16f1131" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/chapter11_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/chapter11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/chapter11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/Example01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/web/WEB-INF/lib/commons-dbcp2-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/web/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/web/WEB-INF/lib/commons-pool2-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/web/WEB-INF/lib/mchange-commons-java-0.2.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/web/WEB-INF/lib/mysql-connector-java-8.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/web/WEB-INF/lib/servlet-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/web/WEB-INF/web.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaTest/JavaTest.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaTest/src/YanghuiTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../demo1/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../demo1/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
@@ -87,18 +100,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="corretto-1.8" />
-    <property name="last_opened_file_path" value="D:/apache-tomcat-8.5.75/lib/servlet-api.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chapter11/web/WEB-INF/lib/servlet-api.jar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter11\web\WEB-INF\lib" />
+      <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter11\web\WEB-INF" />
       <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter10\web\WEB-INF\lib" />
       <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter09\web\WEB-INF\lib" />
       <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter08\web\WEB-INF" />
@@ -108,7 +123,7 @@
       <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter06\web" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeleteUserTest">
+  <component name="RunManager" selected="Tomcat Server.TomcatChapter11">
     <configuration name="DeleteUserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.itcast.jdbc.example.DeleteUserTest" />
       <module name="chapter10" />
@@ -783,10 +798,100 @@
         </option>
       </method>
     </configuration>
+    <configuration name="TomcatChapter11" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.75" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="chapter11:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/chapter11" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="9bb6076e-589d-4e45-9ff7-0d711a629842" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49793" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="chapter11:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.JdbcInsertTest" />
       <item itemvalue="Application.FindAllUserTest" />
       <item itemvalue="Application.FindUserByIdTest" />
+      <item itemvalue="Application.UpdateUserTest" />
+      <item itemvalue="Application.DeleteUserTest" />
+      <item itemvalue="Tomcat Server.TomcatChapter11" />
       <item itemvalue="Tomcat Server.TomcatChapter04" />
       <item itemvalue="Tomcat Server.TomcatChapter05" />
       <item itemvalue="Tomcat Server.TomcatChapter06" />
@@ -794,8 +899,6 @@
       <item itemvalue="Tomcat Server.TomcatChapter08" />
       <item itemvalue="Tomcat Server.TomcatChapter09" />
       <item itemvalue="Tomcat Server.TomcatChapter10" />
-      <item itemvalue="Application.UpdateUserTest" />
-      <item itemvalue="Application.DeleteUserTest" />
     </list>
     <recent_temporary>
       <list>
@@ -841,6 +944,9 @@
       <workItem from="1648530100581" duration="3745000" />
       <workItem from="1648598990339" duration="8872000" />
       <workItem from="1648613396917" duration="1596000" />
+      <workItem from="1648810657088" duration="244000" />
+      <workItem from="1648810925303" duration="532000" />
+      <workItem from="1649050929948" duration="540000" />
     </task>
     <servers />
   </component>
