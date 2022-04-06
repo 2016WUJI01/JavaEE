@@ -10,60 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4381e128-c236-4d35-9d74-05cba16f1131" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/chapter12_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/chapter12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/src/c3p0-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/BaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/Example02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/Example03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/Example04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/ResultSetTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/ResultSetTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/ResultSetTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/ResultSetTest4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/jdbc/jdbc/dao/DeleteDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/jdbc/jdbc/dao/InsertDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/jdbc/jdbc/dao/QueryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/jdbc/jdbc/dao/UpdateDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/jdbc/jdbc/javabean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/jdbc/jdbc/utils/C3p0Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/src/dbcpconfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/web/WEB-INF/lib/c3p0-0.9.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/chapter12.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/src/AJAXServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/src/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/src/JSONServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/src/Load2Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/src/cn/itcast/dao/ConnDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/src/cn/itcast/dao/connDB.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/web/JSON.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/web/WEB-INF/lib/commons-collections-3.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/web/WEB-INF/lib/commons-lang-2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/web/WEB-INF/lib/ezmorph-1.0.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/web/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/web/WEB-INF/lib/mysql-connector-java-8.0.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/web/WEB-INF/lib/servlet-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/web/ajax.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/web/get.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/web/get2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/web/getInfo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/web/jquery-3.6.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/web/load.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/web/load2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter12/web/target.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaTest/JavaTest.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaTest/src/YanghuiTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/chapter11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/chapter11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter11/chapter11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter11/chapter11.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/Example01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/Example01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../demo1/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../demo1/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../demo1/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
@@ -1082,7 +1031,8 @@
       <workItem from="1649062163463" duration="153000" />
       <workItem from="1649062342252" duration="854000" />
       <workItem from="1649120691111" duration="3202000" />
-      <workItem from="1649204050510" duration="594000" />
+      <workItem from="1649204050510" duration="1189000" />
+      <workItem from="1649208244004" duration="440000" />
     </task>
     <servers />
   </component>
