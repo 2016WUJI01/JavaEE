@@ -1,23 +1,26 @@
 package cn.itcast.chapter11.example;
 
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
 import java.sql.SQLException;
+import java.util.Properties;
 import javax.sql.DataSource;
 
-import org.apache.commons.dbcp2.BasicDataSource;
+import org.apache.commons.dbcp2.BasicDataSourceFactory;
 
-public class Example01 {
+public class Example02 {
     public static DataSource ds = null;
 
     static {
-        BasicDataSource bds = new BasicDataSource();
-        bds.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        bds.setUrl("jdbc:mysql://localhost:3306/jdbc?serverTimezone=GMT%2B8");
-        bds.setUsername("root");
-        bds.setPassword("root");
-        bds.setInitialSize(5);
-        ds = bds;
+        Properties prop = new Properties();
+        try {
+            InputStream in = new Example02().getClass().getClassLoader().getResourceAsStream("dbcpconfig.properties");
+            prop.load(in);
+            ds = BasicDataSourceFactory.createDataSource(prop);
+        } catch (Exception e) {
+            throw new ExceptionInInitializerError(e);
+        }
     }
 
     public static void main(String[] args) throws SQLException {

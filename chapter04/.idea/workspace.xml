@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="chapter11:war exploded" />
+      <artifact name="chapter12:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,22 +10,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4381e128-c236-4d35-9d74-05cba16f1131" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/chapter11_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/chapter11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/chapter11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/Example01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/web/WEB-INF/lib/commons-dbcp2-2.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/web/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/web/WEB-INF/lib/commons-pool2-2.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/web/WEB-INF/lib/mchange-commons-java-0.2.3.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/web/WEB-INF/lib/mysql-connector-java-8.0.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/web/WEB-INF/lib/servlet-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter11/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/chapter12_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/chapter12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/src/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/Example02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/Example03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/Example04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/ResultSetTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/ResultSetTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/ResultSetTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/ResultSetTest4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/jdbc/jdbc/dao/DeleteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/jdbc/jdbc/dao/InsertDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/jdbc/jdbc/dao/QueryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/jdbc/jdbc/dao/UpdateDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/jdbc/jdbc/javabean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/jdbc/jdbc/utils/C3p0Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/src/dbcpconfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter11/web/WEB-INF/lib/c3p0-0.9.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/chapter12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/src/AJAXServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/src/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/src/JSONServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/src/Load2Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/src/cn/itcast/dao/ConnDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/src/cn/itcast/dao/connDB.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/web/JSON.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/web/WEB-INF/lib/commons-collections-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/web/WEB-INF/lib/commons-lang-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/web/WEB-INF/lib/ezmorph-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/web/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/web/WEB-INF/lib/mysql-connector-java-8.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/web/WEB-INF/lib/servlet-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/web/ajax.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/web/get.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/web/get2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/web/getInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/web/jquery-3.6.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/web/load.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/web/load2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter12/web/target.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaTest/JavaTest.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaTest/src/YanghuiTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/chapter11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/chapter11.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter11/chapter11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter11/chapter11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/Example01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter11/src/cn/itcast/chapter11/example/Example01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../demo1/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../demo1/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../demo1/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
@@ -59,6 +97,8 @@
         <option value="JavaFXApplication" />
         <option value="HTML File" />
         <option value="Jsp File" />
+        <option value="FxmlFile" />
+        <option value="Tag Library Descriptor" />
         <option value="Class" />
       </list>
     </option>
@@ -100,7 +140,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="corretto-1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chapter11/web/WEB-INF/lib/servlet-api.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chapter12/web/WEB-INF/lib/servlet-api.jar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -112,24 +152,27 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter12\web" />
+      <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter12\src" />
+      <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter11\src\cn\itcast\jdbc" />
+      <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter11\src\cn\itcast\chapter11\example" />
       <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter11\web\WEB-INF\lib" />
-      <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter11\web\WEB-INF" />
-      <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter10\web\WEB-INF\lib" />
-      <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter09\web\WEB-INF\lib" />
-      <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter08\web\WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter07\web" />
       <recent name="C:\Users\2016WUJI01-XIAOXIN\Desktop\Test\JavaEE\chapter06\web" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.itcast.chapter11.example.utils" />
+    </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.TomcatChapter11">
-    <configuration name="DeleteUserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.jdbc.example.DeleteUserTest" />
-      <module name="chapter10" />
+  <component name="RunManager" selected="Tomcat Server.TomcatChapter12">
+    <configuration name="DeleteDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.jdbc.jdbc.dao.DeleteDao" />
+      <module name="chapter11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.jdbc.example.*" />
+          <option name="PATTERN" value="cn.itcast.jdbc.jdbc.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindAllUserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.jdbc.example.FindAllUserTest" />
-      <module name="chapter10" />
+    <configuration name="InsertDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.jdbc.jdbc.dao.InsertDao" />
+      <module name="chapter11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.jdbc.example.*" />
+          <option name="PATTERN" value="cn.itcast.jdbc.jdbc.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +193,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindUserByIdTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.jdbc.example.FindUserByIdTest" />
-      <module name="chapter10" />
+    <configuration name="QueryDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.jdbc.jdbc.dao.QueryDao" />
+      <module name="chapter11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.jdbc.example.*" />
+          <option name="PATTERN" value="cn.itcast.jdbc.jdbc.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +206,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcInsertTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.jdbc.example.JdbcInsertTest" />
-      <module name="chapter10" />
+    <configuration name="ResultSetTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.chapter11.example.ResultSetTest4" />
+      <module name="chapter11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.jdbc.example.*" />
+          <option name="PATTERN" value="cn.itcast.chapter11.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,12 +219,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateUserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.jdbc.example.UpdateUserTest" />
-      <module name="chapter10" />
+    <configuration name="UpdateDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.jdbc.jdbc.dao.UpdateDao" />
+      <module name="chapter11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.jdbc.example.*" />
+          <option name="PATTERN" value="cn.itcast.jdbc.jdbc.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -885,13 +928,101 @@
         </option>
       </method>
     </configuration>
+    <configuration name="TomcatChapter12" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.75" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="chapter12:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/chapter12" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="403fcc37-24a3-4fd7-9121-3033d970ea25" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56455" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="chapter12:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.JdbcInsertTest" />
-      <item itemvalue="Application.FindAllUserTest" />
-      <item itemvalue="Application.FindUserByIdTest" />
-      <item itemvalue="Application.UpdateUserTest" />
-      <item itemvalue="Application.DeleteUserTest" />
+      <item itemvalue="Application.ResultSetTest4" />
+      <item itemvalue="Application.InsertDao" />
+      <item itemvalue="Application.UpdateDao" />
+      <item itemvalue="Application.DeleteDao" />
+      <item itemvalue="Application.QueryDao" />
       <item itemvalue="Tomcat Server.TomcatChapter11" />
+      <item itemvalue="Tomcat Server.TomcatChapter12" />
       <item itemvalue="Tomcat Server.TomcatChapter04" />
       <item itemvalue="Tomcat Server.TomcatChapter05" />
       <item itemvalue="Tomcat Server.TomcatChapter06" />
@@ -902,11 +1033,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DeleteUserTest" />
-        <item itemvalue="Application.UpdateUserTest" />
-        <item itemvalue="Application.FindUserByIdTest" />
-        <item itemvalue="Application.FindAllUserTest" />
-        <item itemvalue="Application.JdbcInsertTest" />
+        <item itemvalue="Application.QueryDao" />
+        <item itemvalue="Application.DeleteDao" />
+        <item itemvalue="Application.UpdateDao" />
+        <item itemvalue="Application.InsertDao" />
+        <item itemvalue="Application.ResultSetTest4" />
       </list>
     </recent_temporary>
   </component>
@@ -946,7 +1077,12 @@
       <workItem from="1648613396917" duration="1596000" />
       <workItem from="1648810657088" duration="244000" />
       <workItem from="1648810925303" duration="532000" />
-      <workItem from="1649050929948" duration="540000" />
+      <workItem from="1649050929948" duration="7350000" />
+      <workItem from="1649061789364" duration="76000" />
+      <workItem from="1649062163463" duration="153000" />
+      <workItem from="1649062342252" duration="854000" />
+      <workItem from="1649120691111" duration="3202000" />
+      <workItem from="1649204050510" duration="594000" />
     </task>
     <servers />
   </component>
