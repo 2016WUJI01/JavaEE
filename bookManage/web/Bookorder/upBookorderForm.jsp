@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
 <body>
@@ -20,12 +21,12 @@
         </tr>
         <tr>
             <td>Id:</td>
-            <td><input type="text" value="${bookorder.id}" disabled></td>
+            <td><input type="text" name="id" value="${bookorder.id}" disabled></td>
         </tr>
 
         <tr>
             <td>状态:</td>
-            <td><input type="text" value="${bookorder.situation}"></td>
+            <td><input type="text" name="situation" value="${bookorder.situation}"></td>
         </tr>
         <tr>
             <td colspan="2" align="center"><input type="submit" value="提交"></td>

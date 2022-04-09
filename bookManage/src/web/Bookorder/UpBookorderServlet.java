@@ -20,13 +20,13 @@ public class UpBookorderServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
         BookorderDao bookorderDao = new BookorderDao();
         Bookorder bookorder1 = new Bookorder();
-        String id = request.getParameter("id");
-        String bookordername = request.getParameter("bookordername");
-        int reserve = Integer.parseInt(request.getParameter("reserve"));
+        String id =request.getParameter("id");
+        String situation = request.getParameter("situation");
         bookorder1.setId(id);
-
+        bookorder1.setSituation(situation);
         int flag = 0;
         try {
             flag = bookorderDao.upBookorder(bookorder1);
