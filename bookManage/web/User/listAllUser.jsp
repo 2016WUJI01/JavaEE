@@ -11,7 +11,6 @@
 <head>
     <title>Title</title>
     <link rel="stylesheet" href="css/bootstrap.css">
-
 </head>
 <body>
 <p align="center">用&nbsp;&nbsp;&nbsp;户&nbsp;&nbsp;&nbsp;信&nbsp;&nbsp;&nbsp;息&nbsp;&nbsp;&nbsp;管&nbsp;&nbsp;&nbsp;理</p>

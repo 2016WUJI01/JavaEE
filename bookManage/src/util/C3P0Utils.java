@@ -12,7 +12,7 @@ public class C3P0Utils {
         ComboPooledDataSource cpds = new ComboPooledDataSource("bookmanage");
         ds = cpds;
     }
-    
+
     public static DataSource getDataSource() {
         return ds;
     }

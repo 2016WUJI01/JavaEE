@@ -53,4 +53,15 @@ public class UsersDao {
         int i = runner.update(sql, new Object[]{user.getUsername(), user.getPassword(), user.getId()});
         return i;
     }
+
+    public boolean login(User user) throws SQLException {
+        QueryRunner runner = new QueryRunner(C3P0Utils.getDataSource());
+        String sql = "SELECT * FROM users WHERE username =? and password = ?";
+        User findeduser = runner.query(sql, new BeanHandler<>(User.class), user.getUsername(), user.getPassword());
+        if(findeduser != null) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }

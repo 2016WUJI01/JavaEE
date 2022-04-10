@@ -23,7 +23,7 @@ public class UpBookorderServlet extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         BookorderDao bookorderDao = new BookorderDao();
         Bookorder bookorder1 = new Bookorder();
-        String id =request.getParameter("id");
+        String id = request.getParameter("id");
         String situation = request.getParameter("situation");
         bookorder1.setId(id);
         bookorder1.setSituation(situation);
