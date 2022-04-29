@@ -50,4 +50,15 @@ public class BookDao {
         String sql = "UPDATE book set bookname=?,reserve=? WHERE id=?";
         return runner.update(sql, new Object[]{book.getBookname(), book.getReserve(), book.getId()});
     }
+
+    public ArrayList<Book> searchBookByName(String searchname) throws SQLException {
+        QueryRunner runner = new QueryRunner(C3P0Utils.getDataSource());
+        String sql = "select * from book WHERE bookname like '%" + searchname + "%'";
+        ArrayList<Book> books = (ArrayList<Book>) runner.query(sql, new BeanListHandler(Book.class));
+        for (Book book:books
+             ) {
+            System.out.println(book.getBookname());
+        }
+        return books;
+    }
 }

@@ -30,8 +30,8 @@ public class BookorderDao {
 
     public boolean insBookorder(Bookorder bookorder) throws SQLException {
         QueryRunner runner = new QueryRunner(C3P0Utils.getDataSource());
-        String sql = "insert into bookorder(adminid,userid,bookid,number,date,situation) values(?,?,?,?,?,?)";
-        int i = runner.update(sql, new Object[]{bookorder.getAdminid(), bookorder.getUserid(), bookorder.getBookid(), 1, LocalDate.now(), bookorder.getSituation()});
+        String sql = "insert into bookorder(userid,bookid,number,date,situation) values(?,?,?,?,?)";
+        int i = runner.update(sql, new Object[]{bookorder.getUserid(), bookorder.getBookid(), 1, LocalDate.now(), "待审批"});
         if (i != 0) {
             return true;
         } else {
@@ -50,5 +50,12 @@ public class BookorderDao {
         QueryRunner runner = new QueryRunner(C3P0Utils.getDataSource());
         String sql = "UPDATE bookorder set situation=? WHERE id=?";
         return runner.update(sql, new Object[]{bookorder.getSituation(), bookorder.getId()});
+    }
+
+    public ArrayList<Bookorder> findAllBookorderByUsername(String username) throws SQLException {
+        QueryRunner runner = new QueryRunner(C3P0Utils.getDataSource());
+        String sql = "select * from bookorder WHERE userid =(select id from users where username = '" + username + "')";
+        ArrayList<Bookorder> bookorders = (ArrayList<Bookorder>) runner.query(sql, new BeanListHandler(Bookorder.class));
+        return bookorders;
     }
 }

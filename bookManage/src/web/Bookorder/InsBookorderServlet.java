@@ -1,7 +1,9 @@
 package web.Bookorderorder;
 
 import dao.BookorderDao;
+import dao.UsersDao;
 import javaBean.Bookorder;
+import javaBean.User;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -22,10 +24,18 @@ public class InsBookorderServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         BookorderDao bookorderDao = new BookorderDao();
         Bookorder bookorder = new Bookorder();
-        String bookordername = request.getParameter("bookordername");
-        String reserve = request.getParameter("reserve");
-        bookorder.setBookid(bookordername);
-        bookorder.setAdminid(bookordername);
+        UsersDao usersDao = new UsersDao();
+        String username = (String) request.getSession().getAttribute("username");
+        String userid = null;
+        try {
+            userid = usersDao.findUseridByUsername(username);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        String bookid = request.getParameter("bookid");
+        System.out.println(userid+bookid);
+        bookorder.setUserid(userid);
+        bookorder.setBookid(bookid);
         boolean flag = false;
         try {
             flag = bookorderDao.insBookorder(bookorder);
@@ -33,9 +43,9 @@ public class InsBookorderServlet extends HttpServlet {
             e.printStackTrace();
         }
         if (flag) {
-            response.sendRedirect(request.getContextPath());
+            response.sendRedirect(request.getContextPath() + "/UserOrderServlet");
         } else {
-            response.getWriter().println("插入失败！！");
+            response.getWriter().println("借书失败！！");
         }
     }
 }

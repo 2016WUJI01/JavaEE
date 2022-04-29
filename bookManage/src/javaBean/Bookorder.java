@@ -4,7 +4,6 @@ import java.util.Date;
 
 public class Bookorder {
     private String id;
-    private String adminid;
     private String userid;
     private String bookid;
     private int number;
@@ -17,14 +16,6 @@ public class Bookorder {
 
     public void setId(String id) {
         this.id = id;
-    }
-
-    public String getAdminid() {
-        return adminid;
-    }
-
-    public void setAdminid(String adminid) {
-        this.adminid = adminid;
     }
 
     public String getUserid() {

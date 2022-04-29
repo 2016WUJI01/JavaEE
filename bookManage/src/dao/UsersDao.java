@@ -47,6 +47,17 @@ public class UsersDao {
         return user;
     }
 
+    public boolean findUserByUsername(String username) throws SQLException {
+        QueryRunner runner = new QueryRunner(C3P0Utils.getDataSource());
+        String sql = "SELECT * FROM users WHERE username=?";
+        User user = runner.query(sql, new BeanHandler<>(User.class), username);
+        if (user != null) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     public int upUser(User user) throws SQLException {
         QueryRunner runner = new QueryRunner(C3P0Utils.getDataSource());
         String sql = "UPDATE users set username=?,password=? WHERE id=?";
@@ -58,10 +69,17 @@ public class UsersDao {
         QueryRunner runner = new QueryRunner(C3P0Utils.getDataSource());
         String sql = "SELECT * FROM users WHERE username =? and password = ?";
         User findeduser = runner.query(sql, new BeanHandler<>(User.class), user.getUsername(), user.getPassword());
-        if(findeduser != null) {
+        if (findeduser != null) {
             return true;
         } else {
             return false;
         }
+    }
+
+    public String findUseridByUsername(String username) throws SQLException {
+        QueryRunner runner = new QueryRunner(C3P0Utils.getDataSource());
+        String sql = "SELECT id FROM users WHERE username=?";
+        String userid = runner.query(sql, new BeanHandler<>(User.class), username).getId();
+        return userid;
     }
 }

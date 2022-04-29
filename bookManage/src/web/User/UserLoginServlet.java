@@ -1,6 +1,8 @@
-package web.Admin;
+package web.User;
 
+import dao.BookorderDao;
 import dao.UsersDao;
+import javaBean.Bookorder;
 import javaBean.User;
 
 import javax.servlet.*;
@@ -10,8 +12,8 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-@WebServlet(name = "AdminLoginServlet", value = "/AdminLoginServlet")
-public class AdminLoginServlet extends HttpServlet {
+@WebServlet(name = "UserLoginServlet", value = "/UserLoginServlet")
+public class UserLoginServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doPost(request, response);
@@ -27,9 +29,18 @@ public class AdminLoginServlet extends HttpServlet {
             user.setUsername(username);
             user.setPassword(password);
             if (usersDao.login(user)) {
-                response.sendRedirect(request.getContextPath() + "/ListAllBookorderServlet ");
+                BookorderDao bookorderDao = new BookorderDao();
+                ArrayList<Bookorder> bookorderlist;
+                request.getSession().setAttribute("username", username);
+                try {
+                    bookorderlist = bookorderDao.findAllBookorderByUsername(username);
+                    request.getSession().setAttribute("userbookorders", bookorderlist);
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                response.sendRedirect(request.getContextPath() + "/UserOrderServlet");
             } else {
-                request.getRequestDispatcher("/adminLogin.jsp").forward(request, response);
+                request.getRequestDispatcher("/userLogin.jsp").forward(request, response);
             }
         } catch (SQLException e) {
             e.printStackTrace();

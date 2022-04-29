@@ -11,6 +11,7 @@
     <title>$Title$</title>
 </head>
 <body>
-$END$
+<td><a href="${pageContext.request.contextPath}/AdminLoginServlet">管理员登录</a></td>
+<td><a href="${pageContext.request.contextPath}/UserLoginServlet">用户登录</a></td>
 </body>
 </html>

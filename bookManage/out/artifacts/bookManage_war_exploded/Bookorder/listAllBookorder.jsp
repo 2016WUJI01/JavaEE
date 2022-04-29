@@ -14,17 +14,20 @@
 </head>
 <body>
 <p align="center">图&nbsp;&nbsp;&nbsp;书&nbsp;&nbsp;&nbsp;信&nbsp;&nbsp;&nbsp;息&nbsp;&nbsp;&nbsp;管&nbsp;&nbsp;&nbsp;理</p>
+<tr>
+    <td><a href="${pageContext.request.contextPath}/ListAllBookServlet">图书管理</a></td>
+    <td><a href="${pageContext.request.contextPath}/ListAllUserServlet">用户管理</a></td>
+    <td><a href="${pageContext.request.contextPath}/ListAllBookorderServlet">借书管理</a></td>
+</tr>
+
 <table class="table table-hover table-bordered">
+
     <tr>
         <td colspan="7"></td>
-        <td>
-            <a href="${pageContext.request.contextPath}/Bookorder/insBookorderForm.jsp">添加书籍</a>
-        </td>
     </tr>
     <tr>
         <td>#</td>
         <td>订单id</td>
-        <td>管理员id</td>
         <td>借书用户id</td>
         <td>书籍id</td>
         <td>数量</td>
@@ -36,7 +39,6 @@
         <tr>
             <td>${vs.count}</td>
             <td>${bookorder.id}</td>
-            <td>${bookorder.adminid}</td>
             <td>${bookorder.userid}</td>
             <td>${bookorder.bookid}</td>
             <td>${bookorder.number}</td>

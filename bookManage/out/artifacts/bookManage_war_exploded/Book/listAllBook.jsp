@@ -14,6 +14,11 @@
 </head>
 <body>
 <p align="center">图&nbsp;&nbsp;&nbsp;书&nbsp;&nbsp;&nbsp;信&nbsp;&nbsp;&nbsp;息&nbsp;&nbsp;&nbsp;管&nbsp;&nbsp;&nbsp;理</p>
+<tr>
+    <td><a href="${pageContext.request.contextPath}/ListAllBookServlet">图书管理</a></td>
+    <td><a href="${pageContext.request.contextPath}/ListAllUserServlet">用户管理</a></td>
+    <td><a href="${pageContext.request.contextPath}/ListAllBookorderServlet">借书管理</a></td>
+</tr>
 <table class="table table-hover table-bordered">
     <tr>
         <td colspan="5"></td>

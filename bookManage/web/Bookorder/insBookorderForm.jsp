@@ -19,12 +19,12 @@
             <td colspan="2" align="center">插入数据</td>
         </tr>
         <tr>
-            <td>Bookordername:</td>
-            <td><input type="text" name="bookordername"></td>
+            <td>userid:</td>
+            <td><input type="text" name="userid"></td>
         </tr>
         <tr>
-            <td>Reserve:</td>
-            <td><input type="text" name="reserve"></td>
+            <td>Bookid:</td>
+            <td><input type="text" name="bookid"></td>
         </tr>
         <tr>
             <td colspan="2" align="center"><input type="submit" value="提交"></td>
